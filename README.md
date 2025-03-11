@@ -1,4 +1,4 @@
-# hirstart-recosys-extension
+# hirstart-recosys
 The extension's job is to recommend news based on reader behaviour on the hirstart.hu website.
 
 ![image](https://github.com/user-attachments/assets/031964a6-46fb-4e4e-ad26-b2781d707cf1)
