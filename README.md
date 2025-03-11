@@ -1,7 +1,7 @@
 # hirstart-recosys-extension
 The extension's job is to recommend news based on reader behaviour on the hirstart.hu website.
 
-![image](https://github.com/user-attachments/assets/e2fb60fd-082c-45d4-a759-bd95a942e731)
+![image](https://github.com/user-attachments/assets/031964a6-46fb-4e4e-ad26-b2781d707cf1)
 
 The functionality is as follows:
 - The extension monitors the domain name and news category of the news clicked by the reader on the hirstart.hu website.
