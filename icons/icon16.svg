@@ -1,0 +1,12 @@
+<svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Háttér kör -->
+  <circle cx="64" cy="64" r="60" fill="#4A90E2"/>
+  
+  <!-- Középre igazított "H" betű -->
+  <path d="M52 40 L52 88 L60 88 L60 64 L68 64 L68 88 L76 88 L76 40 L68 40 L68 56 L60 56 L60 40 Z" fill="#FFFFFF"/>
+  
+  <!-- Grafikon oszlopok -->
+  <rect x="90" y="70" width="8" height="30" fill="#FFFFFF"/>
+  <rect x="100" y="50" width="8" height="50" fill="#FFFFFF"/>
+  <rect x="110" y="30" width="8" height="70" fill="#FFFFFF"/>
+</svg>

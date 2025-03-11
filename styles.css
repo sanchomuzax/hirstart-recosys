@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Lebegő doboz alapstílusai */
+#hirstart-click-tracker {
+  position: fixed; 
+  right: 8px;   
+  width: 137px;
+  height: auto;
+  max-height: 250px;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  z-index: 10000;
+  font-size: 8px; 
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-align: left; 
+  bottom: 90px;
+}
+
+/* Bezárás gomb */
+#hirstart-click-tracker #hirstart-close-btn {
+  float: right;
+  cursor: pointer;
+  font-size: 10px; /* Kisebb méret */
+  font-weight: normal; /* Nem félkövér */
+  margin-top: -3px;
+}
+
+/* Cím */
+#hirstart-click-tracker .hirstart-title {
+  margin-bottom: 4px;
+  /* Nem használunk font-weight: bold; */
+}
+
+/* Sorok száma */
+#hirstart-click-tracker #hirstart-count {
+  margin-bottom: 4px;
+  /* Nem használunk font-weight: bold; */
+}
+
+/* Kattintási bejegyzések */
+#hirstart-click-tracker .hirstart-entry {
+  margin: 2px 0;
+}
+
+/* Top Section */
+.hirstart-top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Top Lists */
+.hirstart-top {
+  width: 45%;
+}
+
+.hirstart-top strong {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.hirstart-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hirstart-list li {
+  margin: 1px 0;
+}
+
+.highlightArticle {
+  position: fixed !important;
+  bottom: 35px !important;
+  left: 8px !important;
+  width: 308px !important;
+  z-index: 100000 !important;
+  border: 5px solid #ffae00 !important;
+  background-color: white !important;
+  background: white !important;
+  border-radius: 3px !important;
+  background-position: left top;
+  box-shadow: 1px 1px 3px #888;
+  text-align: left;
+  padding: 5px 7px;
+}
+
+.highlightArticle::before {
+  content: 'Érdekelhet';
+  position: absolute;
+  top: -22px;
+  padding: 5px;
+  background: #ffae00;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  left: 2px;
+}
+
+.highlightArticle .rovidhir, .highlightArticle .boxhir {
+  padding: 3px 5px !important;
+  margin: 0 !important;
+  background: unset !important;
+}
+
+.highlightArticle h2, .highlightArticle h3 {
+  overflow: unset !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+}
+
+.highlightArticle h2 a, .highlightArticle h3 a {
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+.highlight-close-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  margin: -20px -20px 0 0;
+  padding: 1px 3px 1px 4px;
+  background: white;
+  border: 5px solid #ffae00;
+  border-radius: 12px;
+}
+
+.highlightArticle .hidebutton::before {
+  display: none;
+}

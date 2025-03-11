@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Hírstart recosys",
+  "version": "1.5",
+  "description": "Nyomon követi a hirstart.hu oldalon a kattintásokat, és statisztikákat jelenít meg a felhasználó számára.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.hirstart.hu/*", "https://m.hirstart.hu/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["template.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
